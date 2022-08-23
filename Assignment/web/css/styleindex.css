@@ -1,0 +1,182 @@
+body {
+  background-image: url("images/12.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  margin-left: 300px;
+  justify-content: space-between;
+  color: rgb(15, 15, 177);
+}
+.header_logo img {
+  width: 200px;
+}
+.header_left p:nth-child(2) {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.header_right_v {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.title {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(15, 15, 177);
+  margin-left: 300px;
+}
+.table {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+table {
+  border-collapse: collapse;
+}
+table tr:nth-child(odd) {
+  background-color: #eee;
+}
+table tr:nth-child(even) {
+  background-color: white;
+}
+table tr:nth-child(1) {
+  background-color: skyblue;
+}
+table tr:nth-child(2) {
+  background-color: skyblue;
+}
+.col-wrap{
+    table-layout: auto;
+    width:100%
+}
+table {
+  width: 1130px;
+  margin-left: 300px;
+}
+.nav_bar {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+  background-image: url("images/images.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  margin-left: 300px;
+}
+.nav_bar img {
+  width: 70px;
+  height: 70px;
+}
+.sum {
+  word-wrap: normal;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a.active {
+  background-color: #12f0ec;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.data{
+  margin-left: 250px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.container {
+  margin-left: 300px;
+  text-align: center;
+}
+.body_note{
+  padding-top: 50px;
+  margin-left: 600px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(48, 48, 210);
+}
+.body_note_content{
+  margin-left: 800px;
+  padding-bottom: 100px;
+  color: rgb(48, 48, 210);
+}
+.body_note_content p:nth-child(2){
+  margin-left: 194px;
+}
+.footer{
+  display: flex;
+  margin-left: 300px;
+  text-justify: distribute;
+  border-top: 3px solid blue;
+}
+.footer_left{
+  width:  1600px;
+  height: 100px;
+  color: rgb(13, 66, 214);
+}
+.footer_left img{
+  height: 50px;
+  width: 50px;
+}
+.footer_right{
+  color: rgb(13, 66, 214);
+  font-size: small;
+  text-align: right;
+  margin-left: 50px;
+}
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 23, 2022, 6:12:14 AM
+    Author     : Admin
+*/
+
